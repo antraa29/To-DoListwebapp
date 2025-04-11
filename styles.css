@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.completed {
+    color: green;
+}
+.pending {
+    color: orange;
+}
